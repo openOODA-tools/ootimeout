@@ -1,0 +1,14 @@
+Source: ootimeout
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: ootimeout
+Architecture: amd64
+Depends: libc6
+Description: DEADLINE GUARD
+ Strict capability timer killing runaway tasks with grace periods and exit propagation.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
